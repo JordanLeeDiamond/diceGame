@@ -10,10 +10,10 @@ const resetButton = document.getElementById("reset");
 
 let p1Score = 0;
 
-let p2Score = 0;
+// let p2Score = 0;
 
-let playerCount = 1;
-let currentPlayer = "player1"
+// let playerCount = 1;
+// let currentPlayer = "player1"
 
 rollButton.addEventListener("click", () => {
     const diceRoll = Math.floor(Math.random() * 6 + 1)
